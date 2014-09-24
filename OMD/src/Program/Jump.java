@@ -10,11 +10,18 @@ import Computer.*;
  *
  */
 public class Jump implements Command {
+	private int jump; 
 
 	public Jump(int jump) {
-		// TODO Auto-generated constructor stub
+		this.jump = jump;
 	}
-	public void execute(Memory m, Counter c){}
+	public void execute(Memory m, Counter c){
+		c.jump(jump);
+	}
+	
+	public String toString() {
+		return "JMP " + jump;
+	}
 
 
 }

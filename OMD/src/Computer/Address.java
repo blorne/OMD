@@ -22,7 +22,13 @@ public class Address implements Operand{
 		return m.get(index);
 	}
 	
+	public String toString() {
+		return "[" + index + "] ";
+	}
 	
+	public boolean equals(Operand a, Memory m){
+		return a.getWord(m).equals(m.get(index));
+	}
 
 
 }

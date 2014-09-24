@@ -10,10 +10,24 @@ import Computer.*;
  *
  */
 public class JumpEq implements Command {
+	private Address a;
+	private int hop;
+	private Word w; 
 	public JumpEq(int hop, Address a, Word w) {
-		// TODO Auto-generated constructor stub
+		this.hop = hop;
+		this.a = a;
+		this.w = w;
 	}
-	public void execute(Memory m, Counter c){}
+	public void execute(Memory m, Counter c){
+		if(a.equals(w))
+			c.jump(hop);
+		else
+			c.increase();
+	}
+	
+	public String toString() {
+		return "JEQ " + hop + " " + a.toString() + w.toString();
+	}
 
 
 }

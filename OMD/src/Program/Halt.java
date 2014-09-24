@@ -14,7 +14,9 @@ public class Halt implements Command {
 	public Halt() {
 		// TODO Auto-generated constructor stub
 	}
-	public void execute(Memory m, Counter c){}
+	public void execute(Memory m, Counter c){
+		c.jump(-1);
+	}
 
 
 }

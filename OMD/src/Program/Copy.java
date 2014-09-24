@@ -22,6 +22,10 @@ private Address a;
 		a.getWord(m).copy(w,m);
 		c.increase();
 	}
+	
+	public String toString() {
+		return "CPY " + w.toString() + a.toString();
+	}
 
 
 }

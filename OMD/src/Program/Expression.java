@@ -20,6 +20,10 @@ public abstract class Expression implements Command {
 		c.increase();
 	}
 	
+	public String toString() {
+		return "";
+	}
+	
 public abstract void op(Operand a, Operand b, Memory m);
 
 }

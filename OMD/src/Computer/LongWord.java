@@ -35,4 +35,10 @@ private long value;
 		
 	}
 	
+	public boolean equals(LongWord a, Memory m){
+		return a.value().longValue() == value;
+	}
+	public boolean equals(Address a, Memory m){
+		return a.equals(a, m);
+	}
 }

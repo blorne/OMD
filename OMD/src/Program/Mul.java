@@ -24,5 +24,9 @@ public class Mul extends Expression {
 	public void op(Operand a, Operand b, Memory m){
 		ad.getWord(m).mul(a, b, m);
 	}
+	
+	public String toString() {
+		return "MUL " + a.toString() + b.toString() + ad.toString();
+	}
 
 }

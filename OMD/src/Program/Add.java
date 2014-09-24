@@ -23,6 +23,10 @@ public class Add extends Expression{
 	public void op(Operand a, Operand b, Memory m){
 		ad.getWord(m).add(a, b, m);
 	}
+	
+	public String toString() {
+		return "ADD " + a.toString() + b.toString() + ad.toString();
+	}
 
 
 }
