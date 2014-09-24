@@ -11,25 +11,20 @@ import java.util.*;
  */
 public class Computer {
 	private Memory m;
-	private Counter i;
-	private Address counter;
+	private Counter pc;
 	private Program program;
 	
 	public Computer(Memory m) {
 		this.m = m;
-		i = new Counter();
-		counter = new Address(m.size());
+		pc = new Counter();
 	}
 	public void load(Program program){
 		this.program = program;
-		
 	}
 	
 	public void run(){
-		
-/*		i = i.get();
-		while ( > 0){
-			list.get(k).execute(m);*/
+		while (pc.get() >= 0){
+			program.get(pc.get()).execute(m,pc);
 		}
 	} 
-
+}

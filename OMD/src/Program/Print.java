@@ -10,12 +10,18 @@ import Computer.*;
  *
  */
 public class Print implements Command {
+	private Address a;
 
 	public void execute(Memory m, Counter c){
-		
+		System.out.println(a.getWord(m).value());
+		c.increase();
 	}
 	public Print(Address a) {
-		// TODO Auto-generated constructor stub
+		this.a = a;
+	}
+	
+	public String toString() {
+		return "PRT " + a;
 	}
 
 }

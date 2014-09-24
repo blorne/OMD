@@ -35,10 +35,7 @@ private long value;
 		
 	}
 	
-	public boolean equals(LongWord a, Memory m){
-		return a.value().longValue() == value;
-	}
-	public boolean equals(Address a, Memory m){
-		return a.equals(a, m);
+	public boolean equals(Operand a, Memory m){
+			return a.getWord(m).value().longValue() == value;
 	}
 }

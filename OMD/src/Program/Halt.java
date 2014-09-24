@@ -17,6 +17,10 @@ public class Halt implements Command {
 	public void execute(Memory m, Counter c){
 		c.jump(-1);
 	}
+	
+	public String toString() {
+		return "HLT ";
+	}
 
 
 }

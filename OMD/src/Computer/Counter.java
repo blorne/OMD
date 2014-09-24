@@ -21,7 +21,7 @@ private int value;
 	public void jump(int i){
 		value = i;
 	}
-	public Number get() {
+	public int get() {
 		return value;
 	}
 
