@@ -36,6 +36,10 @@ private long value;
 	}
 	
 	public boolean equals(Operand a, Memory m){
-			return a.getWord(m).value().longValue() == value;
+		return a.getWord(m).value().longValue() == value;
+	}
+	
+	public String toString(){
+		return "" + value + " ";
 	}
 }

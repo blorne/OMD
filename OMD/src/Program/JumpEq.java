@@ -19,7 +19,7 @@ public class JumpEq implements Command {
 		this.w = w;
 	}
 	public void execute(Memory m, Counter c){
-		if(a.equals(w))
+		if(a.equals(w, m))
 			c.jump(hop);
 		else
 			c.increase();

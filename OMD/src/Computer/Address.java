@@ -27,7 +27,7 @@ public class Address implements Operand{
 	}
 	
 	public boolean equals(Operand a, Memory m){
-		return a.getWord(m).equals(m.get(index));
+		return a.getWord(m).equals(m.get(index),m);
 	}
 
 
