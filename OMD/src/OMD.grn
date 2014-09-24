@@ -4,29 +4,29 @@
       <name="=OMD/src<Computer{LongMemory.java[LongMemory"/>
       <height="-1"/>
       <width="-1"/>
-      <x="0"/>
-      <y="0"/>
+      <x="21"/>
+      <y="63"/>
    </type>
    <type>
       <name="=OMD/src<Computer{Memory.java[Memory"/>
       <height="-1"/>
       <width="-1"/>
-      <x="200"/>
-      <y="0"/>
+      <x="212"/>
+      <y="49"/>
    </type>
    <type>
       <name="=OMD/src<Computer{LongWord.java[LongWord"/>
       <height="-1"/>
       <width="-1"/>
-      <x="400"/>
-      <y="0"/>
+      <x="378"/>
+      <y="80"/>
    </type>
    <type>
       <name="=OMD/src<Computer{Word.java[Word"/>
       <height="-1"/>
       <width="-1"/>
-      <x="600"/>
-      <y="0"/>
+      <x="638"/>
+      <y="96"/>
    </type>
    <type>
       <name="=OMD/src<Computer{Address.java[Address"/>
@@ -46,15 +46,15 @@
       <name="=OMD/src<Computer{Operand.java[Operand"/>
       <height="-1"/>
       <width="-1"/>
-      <x="400"/>
-      <y="200"/>
+      <x="340"/>
+      <y="378"/>
    </type>
    <type>
       <name="=OMD/src<Computer{Computer.java[Computer"/>
       <height="-1"/>
       <width="-1"/>
-      <x="600"/>
-      <y="200"/>
+      <x="648"/>
+      <y="314"/>
    </type>
    <relationship>
       <class="edu.buffalo.cse.green.relationship.realization.RealizationPart"/>
