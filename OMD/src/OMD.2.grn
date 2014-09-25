@@ -5,28 +5,28 @@
       <height="-1"/>
       <width="-1"/>
       <x="0"/>
-      <y="0"/>
+      <y="60"/>
    </type>
    <type>
       <name="=OMD/src<Program{JumpEq.java[JumpEq"/>
       <height="-1"/>
       <width="-1"/>
-      <x="200"/>
-      <y="0"/>
+      <x="240"/>
+      <y="25"/>
    </type>
    <type>
       <name="=OMD/src<Program{Program.java[Program"/>
       <height="-1"/>
       <width="-1"/>
-      <x="400"/>
-      <y="0"/>
+      <x="426"/>
+      <y="54"/>
    </type>
    <type>
       <name="=OMD/src<Program{Copy.java[Copy"/>
       <height="-1"/>
       <width="-1"/>
-      <x="600"/>
-      <y="0"/>
+      <x="693"/>
+      <y="48"/>
    </type>
    <type>
       <name="=OMD/src<Program{Print.java[Print"/>
